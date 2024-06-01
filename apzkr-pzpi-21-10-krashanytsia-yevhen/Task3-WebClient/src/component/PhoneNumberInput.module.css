@@ -1,0 +1,13 @@
+.phoneInputLabel{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.phoneInputContainer {
+    width: 100%;
+    font-size: 50px;
+    padding: 5px;
+}
+.phoneInput {
+    margin-bottom: 16px;
+}

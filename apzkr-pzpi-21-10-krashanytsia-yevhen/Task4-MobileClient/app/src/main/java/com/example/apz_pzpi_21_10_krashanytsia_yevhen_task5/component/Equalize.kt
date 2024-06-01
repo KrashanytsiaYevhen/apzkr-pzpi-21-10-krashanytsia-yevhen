@@ -136,7 +136,7 @@ class Equalize : AppCompatActivity() {
             return
         }
 
-        val deviceAddress = "00:11:22:33:44:55" // Замініть на MAC-адресу вашого IoT-пристрою
+        val deviceAddress = "00:11:22:33:44:55" 
         val device: BluetoothDevice? = bluetoothAdapter.getRemoteDevice(deviceAddress)
         if (device == null) {
             Toast.makeText(this, "IoT-пристрій не знайдено", Toast.LENGTH_SHORT).show()
